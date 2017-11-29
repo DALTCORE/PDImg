@@ -7,7 +7,7 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/urfave/cli"
-	"gopkg.in/gographics/imagick.v2/imagick"
+	"gopkg.in/gographics/imagick.v3/imagick"
 )
 
 func main() {
