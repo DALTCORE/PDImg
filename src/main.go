@@ -24,6 +24,7 @@ func main() {
 	app.HelpName = "pdimg"
 	app.Usage = "Convert PDF's to JPEG, PNG or WebP"
 	app.UsageText = "pdimg convert <filename.pdf> jpeg"
+	app.Version = "1.0.0"
 
 	app.Commands = []cli.Command{
 		{
